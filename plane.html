@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="plane.js"></script>
+<link rel="stylesheet" href="plane.css">
+<title>飞机大战</title>
+</head>
+<body style="background-color: black;">
+<div class="setup-con">
+    <div class="s-text">设置</div>
+    <hr style="color:#fff">
+    <div class="s-con">
+        <div class="s-monster-num">
+            <div class="s-text" style="text-align: left;">怪物数量</div>
+            <div class="s-text" id = "num">960</div>
+            <input type="range" name="" id="monster-num" min=80 max=2000 step=10>
+        </div>
+        <div class="s-monster-speed">
+            <div class="s-text"  style="text-align: left;">怪物速度</div>
+            <div class="s-text" id="speed">70</div>
+            <input type="range" name="" id="monster-speed" min=40 max=100 step=10>
+        </div>
+    </div>
+    <div class="submitSetup">确定</div>
+</div>
+<div class="con">
+<div class="start-btn"></div>
+<div class="grade">分数：0</div>
+<div class="plane" id="plane" style="left:900px;top:800px;">
+</div>
+</div>
+</body>
+</html>
